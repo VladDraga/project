@@ -18,16 +18,6 @@ body {
     margin: 0 auto;
 }
 
-.container2 {
-    width: 1920px;
-    margin: 0 auto;
-}
-
-.container3 {
-    width: 1520px;
-    margin: 0 auto;
-}
-
 .container4 {
     width: 1520px;
     margin: 0 auto;
@@ -44,6 +34,12 @@ body {
     margin: 0 auto;
 }
 
+.container7{
+    width: 424px;
+    height: 254px;
+    margin: 0 auto;
+}
+
 .adres {
     color: #666666;
     display: flex;
@@ -54,6 +50,11 @@ body {
 }
 
 .small-one {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.24);
+}
+
+.small-one {
+    height: 42px;
     display: flex;
     justify-content: space-between;
     padding: 12px 0;
@@ -61,6 +62,11 @@ body {
 
 .buttons {
     display: flex;
+}
+
+.shopping-money{
+    font-weight: 600;
+    padding-top: 5px;
 }
 
 .vector {
@@ -171,9 +177,9 @@ body {
     padding-right: 12px;
 }
 
-.nav-links .container4{
+.nav-links .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #333333;
 }
 
@@ -518,17 +524,22 @@ body {
     align-items: center;
 }
 
-.client-testimonail .container4{
-    justify-content: space-around;
-    align-items: center;
+.client-testimonail .container{
+    justify-content: space-between;
     display: flex;
+}
+
+.client-testimonail-header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .testimonial-lines{
     display: flex;
 }
 
-.fresh-healthy .container3{
+.fresh-healthy .container4{
     background-image: url(imghomepage/freshbg.svg);
 }
 
@@ -592,6 +603,10 @@ body {
 }
 
 .fresh-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
     font-weight: 600;
     border-radius: 43px;
     padding: 14px 32px;
@@ -599,10 +614,6 @@ body {
     background-color: #00B207;
     border: 0;
     cursor: pointer;
-}
-
-.fresh-button-name{
-    display: inline;
 }
 
 .fresh-button-name{
@@ -617,4 +628,166 @@ body {
 
 .line-two-two{
     padding: 0 8px;
+}
+
+.client-testimonail-title{
+    font-weight: 600;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-top: 100px;
+}
+
+.line-flex1{
+    margin-bottom: 50px;
+}
+
+.testimonail-flex-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px 24px 24px;
+}
+
+.testimonail-flex-about{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonail-figure-full-about{
+    display: flex;
+    align-items: center;
+}
+
+.testimonail-figure-photo{
+    padding-right: 12px;
+}
+
+.testimonail-apostrof{
+    padding: 24px 0 16px 24px;
+}
+
+.testimonail-figure-text{
+    padding-left: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.671);
+    line-height: 130%;
+}
+
+.testimonail-figure{
+    width: 424px;
+    height: 254px;
+    background-color: white;
+    border-radius: 10px;
+    border: 8;
+    
+}
+
+.client-testimonail{
+    height: 630px;
+    background-color: #b4ccb452;
+}
+
+.button-aoorw{
+    background-color: #b4ccb400;
+}
+
+.tracker{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonail .container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.insta{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+}
+
+.folow-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.folow-text{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.subscribe-header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+
+}
+
+.subscribe-logo{
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-logo-text{
+    font-size: 39px;
+    font-weight: 500;
+    padding-left: 9.7px;
+}
+
+.subscribe-title{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.subscribe-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(128, 128, 128, 0.637);
+    padding-top: 10px;
+}
+
+.subscribe-form-input{
+    padding: 14px 120px 14px 24px;
+    border: 1px solid rgba(128, 128, 128, 0.205);
+    border-top-left-radius: 46px;
+    border-bottom-left-radius: 46px;
+    border-right: white;
+}
+
+.subscribe-form-btn{
+    padding: 14px 24px 14px 24px;
+    border: 1px solid white;
+    background-color: #00B207;
+    border-top-right-radius: 46px;
+    border-bottom-right-radius: 46px;
+    border-top-left-radius: 46px;
+    border-bottom-left-radius: 46px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main-footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-shop{
+    width: 336px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.subscribe-form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
