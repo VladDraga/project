@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
 }
 
 body {
@@ -18,7 +23,7 @@ body {
     margin: 0 auto;
 }
 
-.container3{
+.container3 {
     width: 1400px;
     margin: 0 auto;
 }
@@ -38,6 +43,7 @@ body {
     height: 426px;
     margin: 0 auto;
 }
+
 .adres {
     color: #666666;
     display: flex;
@@ -51,7 +57,7 @@ body {
     border-bottom: 1px solid rgba(128, 128, 128, 0.24);
 }
 
-.small-one .container{
+.small-one .container {
     height: 42px;
     display: flex;
     justify-content: space-between;
@@ -156,7 +162,7 @@ body {
     font-weight: 600;
 }
 
-.search-form-input{
+.search-form-input {
     content: '';
     background-image: url("./imghomepage/search.svg");
     background-repeat: no-repeat;
@@ -166,6 +172,8 @@ body {
 .product-button {
     cursor: pointer;
     background-color: white;
+    border: 0;
+    padding-right: 16px;
 }
 
 .shopping {
@@ -198,25 +206,25 @@ body {
     padding-left: 8px;
 }
 
-.nav-links-ul{
+.nav-links-ul {
     display: flex;
     justify-content: space-between;
 }
 
-.nav-links-flex{
+.nav-links-flex {
     width: 535px;
     display: flex;
     padding: 19.5px 0;
     justify-content: space-between;
 }
 
-.nav-links-button-img{
+.nav-links-button-img {
     width: 16px;
     height: 16px;
     padding-left: 5px;
 }
 
-.nav-links-button{
+.nav-links-button1 {
     display: flex;
     align-items: center;
     border: 0;
@@ -227,12 +235,39 @@ body {
     cursor: pointer;
 }
 
-.nav-links-button:hover{
+.nav-links-button1:hover {
     color: white;
 }
 
-.nav-links-button{
+.nav-links-button {
+    display: flex;
+    align-items: center;
+    border: 0;
+    background-color: #333333;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
 
+.nav-links-button:hover {
+    color: white;
+}
+
+.nav-links-button:hover:after {
+    content: '';
+    background-image: url("./imghomepage/vectortwo.svg");
+}
+
+.nav-links-button::after {
+    content: '';
+    background-image: url("./imghomepage/vector.svg");
+    background-size: 13px;
+    padding-left: 20px;
+    width: 13px;
+    height: 13px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .call-now {
@@ -245,17 +280,17 @@ body {
     color: #999999;
 }
 
-.vector-img{
+.vector-img {
     color: #999999;
     width: 12px;
     height: 12px;
 }
 
-.nav-links-link:hover{
+.nav-links-link:hover {
     color: white;
 }
 
-.advantages .container3{
+.advantages .container3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -265,27 +300,27 @@ body {
     border-radius: 8px;
     border-color: white;
     background-color: white;
-    box-shadow: 9px -10px 14px -5px rgba(0,0,0,0.05);
+    box-shadow: 9px -10px 14px -5px rgba(0, 0, 0, 0.05);
 }
 
-.advantages-figure{
+.advantages-figure {
     display: flex;
     align-items: center;
 }
 
-.advantages-title{
+.advantages-title {
     font-size: 16px;
     font-weight: 600;
     padding-bottom: 10px;
 }
 
-.advantages-text{
+.advantages-text {
     font-size: 14px;
     font-weight: 400;
     color: #999999;
 }
 
-.advantages-img{
+.advantages-img {
     padding-right: 16px;
 }
 
@@ -303,20 +338,16 @@ body {
     font-size: 40px;
 }
 
-.Products .container{
+.Products .container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-.product-button {
-    border: 0;
-    padding-right: 16px;
-}
 
 .all-fearured-products-flex {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .product-price {
@@ -325,12 +356,12 @@ body {
     padding: 6px 0;
 }
 
-.product1{
+.product1 {
     border: 1px solid #E6E6E6;
     border-radius: 8px;
 }
 
-.product1:hover{
+.product1:hover {
     border: 1px solid #00B207;
     border-radius: 8px;
 }
@@ -354,7 +385,7 @@ body {
     border-radius: 8px;
 }
 
-.product11:hover{
+.product11:hover {
     border: 1px solid #00B207;
     border-radius: 8px;
 }
@@ -385,7 +416,7 @@ body {
 }
 
 .flex-featured-products {
-    padding: 12px 16px 16px 16px;
+    padding: 12px 100px 16px 16px;
 }
 
 .newest-products {
@@ -574,7 +605,7 @@ body {
     border-radius: 8px;
 }
 
-.category:hover{
+.category:hover {
     border: 1px solid #00B207;
     border-radius: 8px;
 }
@@ -788,7 +819,7 @@ body {
     padding-bottom: 32px;
 }
 
-.footer .container{
+.footer .container {
     display: flex;
     flex-direction: column;
 }
@@ -798,7 +829,7 @@ body {
     background-color: #1A1A1A;
 }
 
-.subscribe-header .container{
+.subscribe-header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -871,7 +902,7 @@ body {
     justify-content: space-between;
 }
 
-.bannar-flex1{
+.bannar-flex1 {
     width: 424px;
     height: 536px;
     background-image: url("./imghomepage/bannarone.svg");
@@ -893,78 +924,79 @@ body {
     padding-right: 12px;
 }
 
-.bannar-flex2{
+.bannar-flex2 {
     width: 424px;
     height: 536px;
     background-image: url("./imghomepage/bannartwo.svg");
 }
 
-.bannar-flex3{
+.bannar-flex3 {
     width: 424px;
     height: 536px;
     background-image: url("./imghomepage/bannarthree.svg");
 }
 
-.bannar-flex1{
+.bannar-flex1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 35px;
 }
 
-.bannar-flex2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 35px;
-}
-.bannar-flex3{
+.bannar-flex2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 35px;
 }
 
-.bannar-sale{
+.bannar-flex3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.bannar-sale {
     font-size: 14px;
     font-weight: 500;
     color: white;
 }
 
-.bannar-text1{
+.bannar-text1 {
     font-size: 40px;
     font-weight: 600;
     color: white;
     padding: 16px 0 8px 0;
 }
 
-.bannar-text2{
+.bannar-text2 {
     font-size: 18px;
     font-weight: 600;
     color: white;
     padding-right: 8px;
 }
 
-.bannar-procent-flex{
+.bannar-procent-flex {
     display: flex;
     align-items: center;
     padding-bottom: 28.5px;
 }
 
-.bannar-procent-flex22{
+.bannar-procent-flex22 {
     display: flex;
     align-items: center;
     padding-bottom: 24px;
 }
 
-.bannar-procent-flex2{
+.bannar-procent-flex2 {
     width: 290px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.bannar-procent-flex3{
+.bannar-procent-flex3 {
     width: 265px;
     display: flex;
     align-items: center;
@@ -973,31 +1005,31 @@ body {
 }
 
 
-.bannar-text31{
+.bannar-text31 {
     font-size: 20px;
     font-weight: 600;
     color: #FF8A00;
 }
 
-.bannar-dif-text1{
+.bannar-dif-text1 {
     font-size: 12px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.808);
 }
 
-.bannar-dif-text{
+.bannar-dif-text {
     font-size: 24px;
     font-weight: 400;
     color: white;
 }
 
-.bannar-dwi-krapku{
+.bannar-dwi-krapku {
     font-size: 24px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.534);
 }
 
-.bannar-text32{
+.bannar-text32 {
     font-size: 20px;
     font-weight: 600;
     color: #FCC900;
