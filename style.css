@@ -168,10 +168,6 @@ body {
     background-color: white;
 }
 
-.product-button:hover {
-    background-color: green;
-}
-
 .shopping {
     display: flex;
 }
