@@ -18,8 +18,8 @@
 <body>
     <header class="header">
         <section class="navigation">
-            <div class="container">
-                <section class="small-one">
+            <section class="small-one">
+                <div class="container">
                     <section class="adres">
                         <img class="mappin" src="imghomepage/mappin.svg" alt="">
                         <p>Store Location: Lincoln 344, Illinois, Chicago, USA</p>
@@ -32,7 +32,9 @@
                         <p class="slash">/</p>
                         <button class="buttons-nav1" type="button">Sign up</button>
                     </section>
-                </section>
+                </div>
+            </section>
+            <div class="container">
                 <section class="middle-one">
                     <div class="container">
                         <section class="logo">
@@ -60,17 +62,21 @@
         </section>
         <section class="nav-links">
             <div class="container">
-                <ul class="nav-links-ul">
-                    <li class="nav-links-item"><a class="nav-links-link" href="">Home</a></li>
-                    <li class="nav-links-item"><a class="nav-links-link" href="">Shop</a></li>
-                    <li class="nav-links-item"><a class="nav-links-link" href="">Pages</a></li>
-                    <li class="nav-links-item"><a class="nav-links-link" href="">Blog</a></li>
-                    <li class="nav-links-item"><a class="nav-links-link" href="">About us</a></li>
-                    <li class="nav-links-item"><a class="nav-links-link" href="">Contact us</a></li>
-                </ul>
+                <div class="nav-links-flex">
+                    <button class="nav-links-button" class="button">Home <img class="nav-links-button-img"
+                            src="imghomepage/vector.svg" alt=""></button>
+                    <button class="nav-links-button" class="button">Shop <img class="nav-links-button-img"
+                            src="imghomepage/vector.svg" alt=""></button>
+                    <button class="nav-links-button" class="button">Pages <img class="nav-links-button-img"
+                            src="imghomepage/vector.svg" alt=""></button>
+                    <button class="nav-links-button" class="button">Blog <img class="nav-links-button-img"
+                            src="imghomepage/vector.svg" alt=""></button>
+                    <button class="nav-links-button" class="button">About us</button>
+                    <button class="nav-links-button" class="button">Contact us</button>
+                </div>
                 <div class="call-now">
                     <img class="call-now-phone" src="imghomepage/phonecall.svg" alt="">
-                    <a class="nomer-link" href="">(219) 555-0114</a>
+                    <a class="nomer-link" href="tel:(219) 555-0114">(219) 555-0114</a>
                 </div>
             </div>
         </section>
@@ -102,6 +108,38 @@
                 </div>
             </div>
         </section>
+        <section class="advantages">
+            <div class="container3">
+                <figure class="advantages-figure">
+                    <img class="advantages-img" src="imghomepage/deliverytruck.svg" alt="">
+                    <figcaption class="advantages-fig">
+                        <h4 class="advantages-title">Free Snipping</h4>
+                        <p class="advantages-text">Free shipping on all your order</p>
+                    </figcaption>
+                </figure>
+                <figure class="advantages-figure">
+                    <img class="advantages-img" src="imghomepage/headphones.svg" alt="">
+                    <figcaption class="advantages-fig">
+                        <h4 class="advantages-title">Customer Support 24/7</h4>
+                        <p class="advantages-text">Instant access to Support</p>
+                    </figcaption>
+                </figure>
+                <figure class="advantages-figure">
+                    <img class="advantages-img" src="imghomepage/shoppingbag.svg" alt="">
+                    <figcaption class="advantages-fig">
+                        <h4 class="advantages-title">100% Secure Payment</h4>
+                        <p class="advantages-text">We ensure your money is save</p>
+                    </figcaption>
+                </figure>
+                <figure class="advantages-figure">
+                    <img class="advantages-img" src="imghomepage/package.svg" alt="">
+                    <figcaption class="advantages-fig">
+                        <h4 class="advantages-title">Money-Back Guarantee</h4>
+                        <p class="advantages-text">30 Days Money-Back Guarantee</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
     </header>
     <main class="main">
         <section class="fearured-products">
@@ -125,179 +163,180 @@
                                 <button class="product-button" type="button"><img class="product-bag"
                                         src="imghomepage/minibag.svg" alt=""></button>
                             </div>
+                        </figure>
+                        </figure>
+                        <figure class="product1">
+                            <img class="product-img" src="imghomepage/cabagge.svg" alt="">
+                            <div class="all-fearured-products-flex">
+                                <figcaption class="flex-featured-products">
+                                    <p class="product-name">Chanise Cabbage</p>
+                                    <p class="product-price">$14.99</p>
+                                    <img class="product-quality" src="imghomepage/rating.svg" alt="">
+                                </figcaption>
+                                <button class="product-button" type="button"><img class="product-bag"
+                                        src="imghomepage/bag.svg" alt=""></button>
+                            </div>
+                        </figure>
+                        <figure class="product1">
+                            <img class="product-img" src="imghomepage/lettuce.svg" alt="">
+                            <div class="all-fearured-products-flex">
+                                <figcaption class="flex-featured-products">
+                                    <p class="product-name">Green Lettuce</p>
+                                    <p class="product-price">$14.99</p>
+                                    <img class="product-quality" src="imghomepage/rating.svg" alt="">
+                                </figcaption>
+                                <button class="product-button" type="button"><img class="product-bag"
+                                        src="imghomepage/bag.svg" alt=""></button>
+                            </div>
+                        </figure>
+                        <figure class="product1">
+                            <img class="product-img" src="imghomepage/chili.svg" alt="">
+                            <div class="all-fearured-products-flex">
+                                <figcaption class="flex-featured-products">
+                                    <p class="product-name">Green Chili</p>
+                                    <p class="product-price">$14.99</p>
+                                    <img class="product-quality" src="imghomepage/rating.svg" alt="">
+                                </figcaption>
+                                <button class="product-button" type="button"><img class="product-bag"
+                                        src="imghomepage/bag.svg" alt=""></button>
+                            </div>
+                        </figure>
+                        <figure class="product1">
+                            <img class="product-img" src="imghomepage/corn.svg" alt="">
+                            <div class="all-fearured-products-flex">
+                                <figcaption class="flex-featured-products">
+                                    <p class="product-name">Corn</p>
+                                    <p class="product-price">$14.99</p>
+                                    <img class="product-quality" src="imghomepage/rating.svg" alt="">
+                                </figcaption>
+                                <button class="product-button" type="button"><img class="product-bag"
+                                        src="imghomepage/bag.svg" alt=""></button>
+                            </div>
+                        </figure>
                     </div>
-                    </figure>
-                    <figure class="product2">
-                        <img class="product-img" src="imghomepage/cabagge.svg" alt="">
-                        <div class="all-fearured-products-flex">
-                            <figcaption class="flex-featured-products">
-                                <p class="product-name">Chanise Cabbage</p>
-                                <p class="product-price">$14.99</p>
-                                <img class="product-quality" src="imghomepage/rating.svg" alt="">
-                            </figcaption>
-                            <button class="product-button" type="button"><img class="product-bag"
-                                    src="imghomepage/bag.svg" alt=""></button>
-                        </div>
-                    </figure>
-                    <figure class="product3">
-                        <img class="product-img" src="imghomepage/lettuce.svg" alt="">
-                        <div class="all-fearured-products-flex">
-                            <figcaption class="flex-featured-products">
-                                <p class="product-name">Green Lettuce</p>
-                                <p class="product-price">$14.99</p>
-                                <img class="product-quality" src="imghomepage/rating.svg" alt="">
-                            </figcaption>
-                            <button class="product-button" type="button"><img class="product-bag"
-                                    src="imghomepage/bag.svg" alt=""></button>
-                        </div>
-                    </figure>
-                    <figure class="product4">
-                        <img class="product-img" src="imghomepage/chili.svg" alt="">
-                        <div class="all-fearured-products-flex">
-                            <figcaption class="flex-featured-products">
-                                <p class="product-name">Green Chili</p>
-                                <p class="product-price">$14.99</p>
-                                <img class="product-quality" src="imghomepage/rating.svg" alt="">
-                            </figcaption>
-                            <button class="product-button" type="button"><img class="product-bag"
-                                    src="imghomepage/bag.svg" alt=""></button>
-                        </div>
-                    </figure>
-                    <figure class="product5">
-                        <img class="product-img" src="imghomepage/corn.svg" alt="">
-                        <div class="all-fearured-products-flex">
-                            <figcaption class="flex-featured-products">
-                                <p class="product-name">Corn</p>
-                                <p class="product-price">$14.99</p>
-                                <img class="product-quality" src="imghomepage/rating.svg" alt="">
-                            </figcaption>
-                            <button class="product-button" type="button"><img class="product-bag"
-                                    src="imghomepage/bag.svg" alt=""></button>
-                        </div>
-                    </figure>
-            </div>
-        </section>
-        <section class="all-products">
-            <div class="container">
-                <section class="hot-deals">
-                    <h2 class="titles">Hot Deals</h2>
-                    <figure class="product11">
-                        <div class="container5">
-                            <img class="deals-img" src="imghomepage/smallapple.svg" alt="">
-                            <figcaption class="flex-deals">
-                                <p class="all-products-deals-name">Green Apple</p>
-                                <p class="all-products-deals-price">$14.99</p>
-                                <img src="imghomepage/rating.svg" alt="">
-                            </figcaption>
-                        </div>
-                    </figure>
-                    <figure class="product11">
-                        <div class="container5">
-                            <img class="deals-img" src="imghomepage/smallmalt.svg" alt="">
-                            <figcaption class="flex-deals">
-                                <p class="all-products-deals-name">Indian Malta</p>
-                                <p class="all-products-deals-price">$14.99</p>
-                                <img src="imghomepage/rating.svg" alt="">
-                            </figcaption>
-                        </div>
-                    </figure>
-                    <figure class="product11">
-                        <div class="container5">
-                            <img class="deals-img" src="imghomepage/smalllettuce.svg" alt="">
-                            <figcaption class="flex-deals">
-                                <p class="all-products-deals-name">Green Lettuce</p>
-                                <p class="all-products-deals-price">$14.99</p>
-                                <img src="imghomepage/rating.svg" alt="">
-                            </figcaption>
-                        </div>
-                    </figure>
                 </section>
-                <section class="best-seller">
-                    <h2 class="titles">Best Seller</h2>
-                    <figure class="product11">
-                        <div class="container5">
-                            <img class="seller-img" src="imghomepage/eggplant.svg" alt="">
-                            <figcaption class="flex-seller">
-                                <p class="all-products-seller-name">Eggplant</p>
-                                <p class="all-products-seller-price">$14.99</p>
-                                <img src="imghomepage/rating.svg" alt="">
-                            </figcaption>
-                        </div>
-                    </figure>
-                    <figure class="product11">
-                        <div class="container5">
-                            <img class="deals-img" src="imghomepage/capsicum.svg" alt="">
-                            <figcaption class="flex-deals">
-                                <p class="all-products-name">Red Capsicum</p>
-                                <div class="money-flex">
-                                    <p class="all-products-price1">$14.99</p>
-                                    <p class="all-products-price2">$20.99</p>
+                <section class="all-products">
+                    <div class="container">
+                        <section class="hot-deals">
+                            <h2 class="titles">Hot Deals</h2>
+                            <figure class="product11">
+                                <div class="container5">
+                                    <img class="deals-img" src="imghomepage/smallapple.svg" alt="">
+                                    <figcaption class="flex-deals">
+                                        <p class="all-products-deals-name">Green Apple</p>
+                                        <p class="all-products-deals-price">$14.99</p>
+                                        <img src="imghomepage/rating.svg" alt="">
+                                    </figcaption>
                                 </div>
-                                <img src="imghomepage/rating.svg" alt="">
-                            </figcaption>
-                        </div>
-                    </figure>
-                    <figure class="product11">
-                        <div class="container5">
-                            <img class="deals-img" src="imghomepage/tomatos.svg" alt="">
-                            <figcaption class="flex-deals">
-                                <p class="all-products-name">Red Tomatos</p>
-                                <p class="all-products-seller-price">$14.99</p>
-                                <img src="imghomepage/rating.svg" alt="">
-                            </figcaption>
-                        </div>
-                    </figure>
-                </section>
-                <section class="top-rated">
-                    <h2 class="titles">Top Rated</h2>
-                    <div class="top-rated-figures">
-                        <figure class="product11">
-                            <div class="container5">
-                                <img class="seller-img" src="imghomepage/potatos.svg" alt="">
-                                <figcaption class="flex-seller">
-                                    <p class="all-products-seller-name">Big Potatos</p>
-                                    <p class="all-products-seller-price">$14.99</p>
-                                    <img src="imghomepage/rating.svg" alt="">
-                                </figcaption>
-                            </div>
-                        </figure>
-                        <figure class="product11">
-                            <div class="container5">
-                                <img class="deals-img" src="imghomepage/smallcorn.svg" alt="">
-                                <figcaption class="flex-deals">
-                                    <p class="all-products-name">Corn</p>
-                                    <div class="money-flex">
-                                        <p class="all-products-price1">$14.99</p>
-                                        <p class="all-products-price2">$20.99</p>
+                            </figure>
+                            <figure class="product11">
+                                <div class="container5">
+                                    <img class="deals-img" src="imghomepage/smallmalt.svg" alt="">
+                                    <figcaption class="flex-deals">
+                                        <p class="all-products-deals-name">Indian Malta</p>
+                                        <p class="all-products-deals-price">$14.99</p>
+                                        <img src="imghomepage/rating.svg" alt="">
+                                    </figcaption>
+                                </div>
+                            </figure>
+                            <figure class="product11">
+                                <div class="container5">
+                                    <img class="deals-img" src="imghomepage/smalllettuce.svg" alt="">
+                                    <figcaption class="flex-deals">
+                                        <p class="all-products-deals-name">Green Lettuce</p>
+                                        <p class="all-products-deals-price">$14.99</p>
+                                        <img src="imghomepage/rating.svg" alt="">
+                                    </figcaption>
+                                </div>
+                            </figure>
+                        </section>
+                        <section class="best-seller">
+                            <h2 class="titles">Best Seller</h2>
+                            <figure class="product11">
+                                <div class="container5">
+                                    <img class="seller-img" src="imghomepage/eggplant.svg" alt="">
+                                    <figcaption class="flex-seller">
+                                        <p class="all-products-seller-name">Eggplant</p>
+                                        <p class="all-products-seller-price">$14.99</p>
+                                        <img src="imghomepage/rating.svg" alt="">
+                                    </figcaption>
+                                </div>
+                            </figure>
+                            <figure class="product11">
+                                <div class="container5">
+                                    <img class="deals-img" src="imghomepage/capsicum.svg" alt="">
+                                    <figcaption class="flex-deals">
+                                        <p class="all-products-name">Red Capsicum</p>
+                                        <div class="money-flex">
+                                            <p class="all-products-price1">$14.99</p>
+                                            <p class="all-products-price2">$20.99</p>
+                                        </div>
+                                        <img src="imghomepage/rating.svg" alt="">
+                                    </figcaption>
+                                </div>
+                            </figure>
+                            <figure class="product11">
+                                <div class="container5">
+                                    <img class="deals-img" src="imghomepage/tomatos.svg" alt="">
+                                    <figcaption class="flex-deals">
+                                        <p class="all-products-name">Red Tomatos</p>
+                                        <p class="all-products-seller-price">$14.99</p>
+                                        <img src="imghomepage/rating.svg" alt="">
+                                    </figcaption>
+                                </div>
+                            </figure>
+                        </section>
+                        <section class="top-rated">
+                            <h2 class="titles">Top Rated</h2>
+                            <div class="top-rated-figures">
+                                <figure class="product11">
+                                    <div class="container5">
+                                        <img class="seller-img" src="imghomepage/potatos.svg" alt="">
+                                        <figcaption class="flex-seller">
+                                            <p class="all-products-seller-name">Big Potatos</p>
+                                            <p class="all-products-seller-price">$14.99</p>
+                                            <img src="imghomepage/rating.svg" alt="">
+                                        </figcaption>
                                     </div>
-                                    <img src="imghomepage/rating.svg" alt="">
-                                </figcaption>
-                            </div>
-                        </figure>
-                        <figure class="product11">
-                            <div class="container5">
-                                <img class="deals-img" src="imghomepage/cauliflower.svg" alt="">
-                                <figcaption class="flex-deals">
-                                    <p class="all-products-name">Fresh cauliflower</p>
-                                    <p class="all-products-price">$14.99</p>
-                                    <img src="imghomepage/rating.svg" alt="">
-                                </figcaption>
-                            </div>
-                        </figure>
-                </section>
-                <section class="summer-sale">
-                    <div class="container6">
-                        <p class="summer-sale-title">SUMMER SALE</p>
-                        <div class="sale-flex-flex">
-                            <p class="sale">75%</p>
-                            <p class="sale-off">off</p>
-                        </div>
-                        <button class="sale-button" type="button">
-                            <p class="sale-button-name">Shop Now</p>
-                            <img src="imghomepage/strelochka.svg" alt="">
-                        </button>
-                </section>
-            </div>
+                                </figure>
+                                <figure class="product11">
+                                    <div class="container5">
+                                        <img class="deals-img" src="imghomepage/smallcorn.svg" alt="">
+                                        <figcaption class="flex-deals">
+                                            <p class="all-products-name">Corn</p>
+                                            <div class="money-flex">
+                                                <p class="all-products-price1">$14.99</p>
+                                                <p class="all-products-price2">$20.99</p>
+                                            </div>
+                                            <img src="imghomepage/rating.svg" alt="">
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                                <figure class="product11">
+                                    <div class="container5">
+                                        <img class="deals-img" src="imghomepage/cauliflower.svg" alt="">
+                                        <figcaption class="flex-deals">
+                                            <p class="all-products-name">Fresh cauliflower</p>
+                                            <p class="all-products-price">$14.99</p>
+                                            <img src="imghomepage/rating.svg" alt="">
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                        </section>
+                        <section class="summer-sale">
+                            <div class="container6">
+                                <p class="summer-sale-title">SUMMER SALE</p>
+                                <div class="sale-flex-flex">
+                                    <p class="sale">75%</p>
+                                    <p class="sale-off">off</p>
+                                </div>
+                                <button class="sale-button" type="button">
+                                    <p class="sale-button-name">Shop Now</p>
+                                    <img src="imghomepage/strelochka.svg" alt="">
+                                </button>
+                                </div>
+                        </section>
+                    </div>
             </div>
         </section>
         <section class="top-category">
@@ -362,11 +401,55 @@
                 </section>
             </div>
         </section>
-        <section class="Bannar">
+        <section class="bannar">
             <div class="container">
-                <img class="bannar-img" src="imghomepage/bannarone.svg" alt="">
-                <img class="bannar-img" src="imghomepage/bannartwo.svg" alt="">
-                <img class="bannar-img" src="imghomepage/bannarthree.svg" alt="">
+                <div class="bannar-flex1">
+                <p class="bannar-sale">Best Deals</p>
+                <p class="bannar-text1">Sale of the Month</p>
+            <div class="bannar-procent-flex2">
+                <p class="bannar-dif-text">00</p>
+                <p class="bannar-dwi-krapku">:</p>
+                <p class="bannar-dif-text">02</p>
+                <p class="bannar-dwi-krapku">:</p>
+                <p class="bannar-dif-text">18</p>
+                <p class="bannar-dwi-krapku">:</p>
+                <p class="bannar-dif-text">46</p>
+            </div>
+            <div class="bannar-procent-flex3">
+                <p class="bannar-dif-text1">DAYS</p>
+                <p class="bannar-dif-text1">HOURS</p>
+                <p class="bannar-dif-text1">MINS</p>
+                <p class="bannar-dif-text1">SECS</p>
+            </div>
+                <button class="sale-button1" type="button">
+                    <p class="sale-button-name1">Shop Now</p>
+                    <img src="imghomepage/strelochka.svg" alt="">
+                </button>
+            </div>
+            <div class="bannar-flex2">
+                <p class="bannar-sale">85% Fat Free</p>
+                <p class="bannar-text1">Low-Fat Meat</p>
+                <div class="bannar-procent-flex">
+                <p class="bannar-text2">Started at</p>
+                <p class="bannar-text31">$79.99</p>
+            </div>
+                <button class="sale-button" type="button">
+                    <p class="sale-button-name">Shop Now</p>
+                    <img src="imghomepage/strelochka.svg" alt="">
+                </button>
+            </div>
+            <div class="bannar-flex3">
+                <p class="bannar-sale">SUMMER SALE</p>
+                <p class="bannar-text1">100% Fresh Fruit</p>
+                <div class="bannar-procent-flex22">
+                <p class="bannar-text2">Up to</p>
+                <p class="bannar-text32">64% OFF</p>
+            </div>
+                <button class="sale-button" type="button">
+                    <p class="sale-button-name">Shop Now</p>
+                    <img src="imghomepage/strelochka.svg" alt="">
+                </button>
+            </div>
             </div>
         </section>
         <section class="fearured-products">
@@ -398,56 +481,57 @@
                                 <button class="product-button" type="button"><img class="product-bag"
                                         src="imghomepage/minibag.svg" alt=""></button>
                             </div>
+                        </figure>
+                        <figure class="product1">
+                            <img class="product-img" src="imghomepage/cabagge.svg" alt="">
+                            <div class="all-fearured-products-flex">
+                                <figcaption class="flex-featured-products">
+                                    <p class="product-name">Chanise Cabbage</p>
+                                    <p class="product-price">$14.99</p>
+                                    <img class="product-quality" src="imghomepage/rating.svg" alt="">
+                                </figcaption>
+                                <button class="product-button" type="button"><img class="product-bag"
+                                        src="imghomepage/bag.svg" alt=""></button>
+                            </div>
+                        </figure>
+                        <figure class="product1">
+                            <img class="product-img" src="imghomepage/lettuce.svg" alt="">
+                            <div class="all-fearured-products-flex">
+                                <figcaption class="flex-featured-products">
+                                    <p class="product-name">Green Lettuce</p>
+                                    <p class="product-price">$14.99</p>
+                                    <img class="product-quality" src="imghomepage/rating.svg" alt="">
+                                </figcaption>
+                                <button class="product-button" type="button"><img class="product-bag"
+                                        src="imghomepage/bag.svg" alt=""></button>
+                            </div>
+                        </figure>
+                        <figure class="product1">
+                            <img class="product-img" src="imghomepage/chili.svg" alt="">
+                            <div class="all-fearured-products-flex">
+                                <figcaption class="flex-featured-products">
+                                    <p class="product-name">Green Chili</p>
+                                    <p class="product-price">$14.99</p>
+                                    <img class="product-quality" src="imghomepage/rating.svg" alt="">
+                                </figcaption>
+                                <button class="product-button" type="button"><img class="product-bag"
+                                        src="imghomepage/bag.svg" alt=""></button>
+                            </div>
+                        </figure>
+                        <figure class="product1">
+                            <img class="product-img" src="imghomepage/corn.svg" alt="">
+                            <div class="all-fearured-products-flex">
+                                <figcaption class="flex-featured-products">
+                                    <p class="product-name">Corn</p>
+                                    <p class="product-price">$14.99</p>
+                                    <img class="product-quality" src="imghomepage/rating.svg" alt="">
+                                </figcaption>
+                                <button class="product-button" type="button"><img class="product-bag"
+                                        src="imghomepage/bag.svg" alt=""></button>
+                            </div>
+                        </figure>
                     </div>
-                    </figure>
-                    <figure class="product2">
-                        <img class="product-img" src="imghomepage/cabagge.svg" alt="">
-                        <div class="all-fearured-products-flex">
-                            <figcaption class="flex-featured-products">
-                                <p class="product-name">Chanise Cabbage</p>
-                                <p class="product-price">$14.99</p>
-                                <img class="product-quality" src="imghomepage/rating.svg" alt="">
-                            </figcaption>
-                            <button class="product-button" type="button"><img class="product-bag"
-                                    src="imghomepage/bag.svg" alt=""></button>
-                        </div>
-                    </figure>
-                    <figure class="product3">
-                        <img class="product-img" src="imghomepage/lettuce.svg" alt="">
-                        <div class="all-fearured-products-flex">
-                            <figcaption class="flex-featured-products">
-                                <p class="product-name">Green Lettuce</p>
-                                <p class="product-price">$14.99</p>
-                                <img class="product-quality" src="imghomepage/rating.svg" alt="">
-                            </figcaption>
-                            <button class="product-button" type="button"><img class="product-bag"
-                                    src="imghomepage/bag.svg" alt=""></button>
-                        </div>
-                    </figure>
-                    <figure class="product4">
-                        <img class="product-img" src="imghomepage/chili.svg" alt="">
-                        <div class="all-fearured-products-flex">
-                            <figcaption class="flex-featured-products">
-                                <p class="product-name">Green Chili</p>
-                                <p class="product-price">$14.99</p>
-                                <img class="product-quality" src="imghomepage/rating.svg" alt="">
-                            </figcaption>
-                            <button class="product-button" type="button"><img class="product-bag"
-                                    src="imghomepage/bag.svg" alt=""></button>
-                        </div>
-                    </figure>
-                    <figure class="product5">
-                        <img class="product-img" src="imghomepage/corn.svg" alt="">
-                        <div class="all-fearured-products-flex">
-                            <figcaption class="flex-featured-products">
-                                <p class="product-name">Corn</p>
-                                <p class="product-price">$14.99</p>
-                                <img class="product-quality" src="imghomepage/rating.svg" alt="">
-                            </figcaption>
-                            <button class="product-button" type="button"><img class="product-bag"
-                                    src="imghomepage/bag.svg" alt=""></button>
-                        </div>
-                    </figure>
+                </section>
             </div>
         </section>
         <section class="client-testimonail">
@@ -468,7 +552,6 @@
                                 alt=""></button>
                     </div>
                 </div>
-            </div>
             <section class="testimonail">
                 <div class="container">
                     <div class="testimonail-figure">
@@ -504,9 +587,9 @@
                         </p>
                         <div class="testimonail-flex-all">
                             <div class="testimonail-figure-full-about">
-                                <img class="testimonail-figure-photo" src="imghomepage/robert.svg" alt="">
+                                <img class="testimonail-figure-photo" src="imghomepage/dianne.svg" alt="">
                                 <div class="testimonail-figure-about">
-                                    <p class="testimonail-figure-name">Robert Fox</p>
+                                    <p class="testimonail-figure-name">Dianne Russell</p>
                                     <p class="testimonail-figure-job">Customer</p>
                                 </div>
                             </div>
@@ -526,9 +609,9 @@
                         </p>
                         <div class="testimonail-flex-all">
                             <div class="testimonail-figure-full-about">
-                                <img class="testimonail-figure-photo" src="imghomepage/robert.svg" alt="">
+                                <img class="testimonail-figure-photo" src="imghomepage/eleanor.svg" alt="">
                                 <div class="testimonail-figure-about">
-                                    <p class="testimonail-figure-name">Robert Fox</p>
+                                    <p class="testimonail-figure-name">Eleanor Pena</p>
                                     <p class="testimonail-figure-job">Customer</p>
                                 </div>
                             </div>
@@ -547,12 +630,33 @@
             <div class="container">
                 <p class="folow-text">Follow us on Instagram</p>
                 <div class="folow-flex">
-                    <img src="imghomepage/postoone.svg" alt="">
-                    <img src="imghomepage/posttwo.svg" alt="">
-                    <img src="imghomepage/postthree.svg" alt="">
-                    <img src="imghomepage/postfour.svg" alt="">
-                    <img src="imghomepage/postfive.svg" alt="">
-                    <img src="imghomepage/postsix.svg" alt="">
+                    <img class="follow-img" src="imghomepage/postoone.svg" alt="">
+                    <img class="follow-img" src="imghomepage/posttwo.svg" alt="">
+                    <img class="follow-img" src="imghomepage/postthree.svg" alt="">
+                    <img class="follow-img" src="imghomepage/postfour.svg" alt="">
+                    <img class="follow-img" src="imghomepage/postfive.svg" alt="">
+                    <img class="follow-img" src="imghomepage/postsix.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="subscribe-header">
+            <div class="container">
+                <div class="subscribe-logo">
+                    <img class="subscribe-logo-plant" src="imghomepage/plant.svg" alt="">
+                    <p class="subscribe-logo-text">Ecobazar</p>
+                </div>
+                <div class="subscribe">
+                    <p class="subscribe-title">Subscribe our Newsletter</p>
+                    <p class="subscribe-text">Pellentesque eu nibh eget mauris congue mattis matti.</p>
+                </div>
+                <div class="subscribe-form-all">
+                    <form class="subscribe-form" action="" method="post">
+                        <div class="subscribe-flex">
+                            <input class="subscribe-form-input" type="email" id="email" name="email" required
+                                placeholder="Your email address">
+                            <button class="subscribe-form-btn" type="submit">Subscribe</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
@@ -560,77 +664,63 @@
     <footer class="footer">
         <div class="container">
             <section class="subscribe-all">
-                <div class="subscribe-header">
-                    <div class="container">
-                <div class="subscribe-logo">
-                    <img class="subscribe-logo-plant" src="imghomepage/plant.svg" alt="">
-                    <p class="subscribe-logo-text">Ecobazar</p>
-                </div>
-                    <div class="subscribe">
-                        <p class="subscribe-title">Subscribe our Newsletter</p>
-                        <p class="subscribe-text">Pellentesque eu nibh eget mauris congue mattis matti.</p>
-                    </div>
-                    <section class="subscribe-form-all">
-                    <form class="subscribe-form" action="" method="post">
-                        <div class="subscribe-flex">
-                        <input class="subscribe-form-input" type="email" id="email" name="email" required
-                            placeholder="Your email address" />
-                        <button class="subscribe-form-btn" type="submit">Subscribe</button>
-                    </div>
-                    </form>
-                </section>
-            </div>
-            </div>
                 <section class="main-footer">
-                    <div class="container">
                     <div class="about-shop">
                         <p class="about-shop-title">About Shopery</p>
-                        <p class="about-shop-text">Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis
+                        <p class="about-shop-text">Morbi cursus porttitor enim lobortis molestie. Duis gravida
+                            turpis
                             dui,
                             eget bibendum magna congue nec.</p>
                         <div class="flex-about">
-                            <a href="">(219) 555-0114</a>
-                            <p>or</p>
-                            <a href="">Proxy@gmail.com</a>
+                            <a class="about-shop-link" href="tel:(219) 555-0114">(219) 555-0114</a>
+                            <p class="or">or</p>
+                            <a class="about-shop-link" href="mailto:Proxy@gmail.com">Proxy@gmail.com</a>
                         </div>
                     </div>
                     <div class="my-account">
                         <ul class="my-account-ul">
-                            <li class="my-account-li">My Account</li>
-                            <li class="my-account-li"><a href="">My Account</a></li>
-                            <li class="my-account-li"><a href="">Order History</a></li>
-                            <li class="my-account-li"><a href="">Shoping cart</a></li>
-                            <li class="my-account-li"><a href="">Wishlist</a></li>
-                            <li class="my-account-li"><a href="">Setting</a></li>
+                            <li class="my-account-li1">My Account</li>
+                            <li class="my-account-li"><a class="my-account-li-link" href="">My Account</a></li>
+                            <li class="my-account-li"><a class="my-account-li-link" href="">Order History</a></li>
+                            <li class="my-account-li"><a class="my-account-li-link" href="">Shoping cart</a></li>
+                            <li class="my-account-li"><a class="my-account-li-link" href="">Wishlist</a></li>
+                            <li class="my-account-li"><a class="my-account-li-link" href="">Setting</a></li>
                         </ul>
                     </div>
                     <div class="Helps">
                         <ul class="helps-ul">
-                            <li class="healps-li">Helps</li>
-                            <li class="healps-li"><a href="">Contact</a></li>
-                            <li class="healps-li"><a href="">Faqs</a></li>
-                            <li class="healps-li"><a href="">Terms & Condition</a></li>
-                            <li class="healps-li"><a href="">Privacy Policy</a></li>
+                            <li class="my-account-li1">Helps</li>
+                            <li class="healps-li"><a class="healps-li-link" href="">Contact</a></li>
+                            <li class="healps-li"><a class="healps-li-link" href="">Faqs</a></li>
+                            <li class="healps-li"><a class="healps-li-link" href="">Terms & Condition</a></li>
+                            <li class="healps-li"><a class="healps-li-link" href="">Privacy Policy</a></li>
                         </ul>
                     </div>
                     <div class="Proxy">
                         <ul class="proxy-ul">
-                            <li class="proxy-li">Proxy</li>
-                            <li class="proxy-li"><a href="">About</a></li>
-                            <li class="proxy-li"><a href="">Shop</a></li>
-                            <li class="proxy-li"><a href="">Product</a></li>
-                            <li class="proxy-li"><a href="">Products Details</a></li>
-                            <li class="proxy-li"><a href="">Track Order</a></li>
+                            <li class="my-account-li1">Proxy</li>
+                            <li class="proxy-li"><a class="proxy-li-link" href="">About</a></li>
+                            <li class="proxy-li"><a class="proxy-li-link" href="">Shop</a></li>
+                            <li class="proxy-li"><a class="proxy-li-link" href="">Product</a></li>
+                            <li class="proxy-li"><a class="proxy-li-link" href="">Products Details</a></li>
+                            <li class="proxy-li"><a class="proxy-li-link" href="">Track Order</a></li>
                         </ul>
                     </div>
                     <div class="app">
                         <p class="app-title">Download our Mobile App</p>
-                        <button class="app-button" type="button"><img src="imghomepage/appstore.svg" alt=""></button>
+                        <button class="app-button1" type="button"><img src="imghomepage/appstore.svg" alt=""></button>
                         <button class="app-button" type="button"><img src="imghomepage/googleplay.svg" alt=""></button>
                     </div>
-                </div>
                 </section>
                 <section class="cards">
+                    <div class="cards-links">
+                        <button class="cards-links-img" type="button"><img src="imghomepage/twittersmall.svg"
+                                alt=""></button>
+                        <button class="cards-links-img" type="button"><img src="imghomepage/pinterestsmall.svg"
+                                alt=""></button>
+                        <button class="cards-links-img" type="button"><img src="imghomepage/instasmall.svg"
+                                alt=""></button>
+                    </div>
                     <p class="cards-text">Ecobazar eCommerce © 2021. All Rights Reserved</p>
                     <div class="flex-cards">
                         <button class="cards-button" type="button"><img src="imghomepage/applepay.svg" alt=""></button>
@@ -642,6 +732,7 @@
                     </div>
                 </section>
             </section>
+        </div>
         </div>
     </footer>
 </body>
