@@ -403,6 +403,18 @@ body {
     border-radius: 8px;
 }
 
+.product11:nth-child(1){
+    margin-bottom: 16px;
+}
+
+.product11:nth-child(2){
+    margin-bottom: 16px;
+}
+
+.product11:nth-child(3){
+    margin-bottom: 16px;
+}
+
 .top-category-header {
     display: flex;
     flex-direction: column;
@@ -515,7 +527,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("/imghomepage/sale.svg");
+    background-image: url("imghomepage/sale.svg");
 }
 
 .summer-sale-title {
@@ -637,7 +649,7 @@ body {
 
 .fresh-healthy .container4 {
     height: 804px;
-    background-image: url(imghomepage/freshbg.svg);
+    background-image: url("imghomepage/freshbg.svg");
 }
 
 .fresh-info {
@@ -909,7 +921,7 @@ body {
 .bannar-flex1 {
     width: 424px;
     height: 536px;
-    background-image: url("/imghomepage/bannarone.svg");
+    background-image: url("imghomepage/bannarone.svg");
 }
 
 .sale-button1 {
@@ -931,13 +943,13 @@ body {
 .bannar-flex2 {
     width: 424px;
     height: 536px;
-    background-image: url("/imghomepage/bannartwo.svg");
+    background-image: url("imghomepage/bannartwo.svg");
 }
 
 .bannar-flex3 {
     width: 424px;
     height: 536px;
-    background-image: url("/imghomepage/bannarthree.svg");
+    background-image: url("imghomepage/bannarthree.svg");
 }
 
 .bannar-flex1 {
