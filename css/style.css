@@ -381,8 +381,6 @@ body {
 .product11 .container5 {
     display: flex;
     align-items: center;
-    border: 1px solid #E6E6E6;
-    border-radius: 8px;
 }
 
 .product11:hover {
@@ -402,6 +400,8 @@ body {
 
 .product11 {
     margin-bottom: 15px;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
 }
 
 .top-category-header {
@@ -516,7 +516,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(imghomepage/sale.svg);
+    background-image: url("/imghomepage/sale.svg");
 }
 
 .summer-sale-title {
@@ -870,7 +870,12 @@ body {
 }
 
 .subscribe-form-input:hover {
-    border-color: white;
+    height: 52px;
+    padding: 14px 140px 14px 24px;
+    border: 1px solid rgba(128, 128, 128, 0.205);
+    border-top-left-radius: 46px;
+    border-bottom-left-radius: 46px;
+    border-right: white;
 }
 
 .subscribe-form-btn {
@@ -905,7 +910,7 @@ body {
 .bannar-flex1 {
     width: 424px;
     height: 536px;
-    background-image: url("./imghomepage/bannarone.svg");
+    background-image: url("/imghomepage/bannarone.svg");
 }
 
 .sale-button1 {
@@ -927,13 +932,13 @@ body {
 .bannar-flex2 {
     width: 424px;
     height: 536px;
-    background-image: url("./imghomepage/bannartwo.svg");
+    background-image: url("/imghomepage/bannartwo.svg");
 }
 
 .bannar-flex3 {
     width: 424px;
     height: 536px;
-    background-image: url("./imghomepage/bannarthree.svg");
+    background-image: url("/imghomepage/bannarthree.svg");
 }
 
 .bannar-flex1 {
